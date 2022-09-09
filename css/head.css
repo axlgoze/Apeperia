@@ -8,17 +8,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    padding-top: .75rem;
-    padding-bottom: .75rem;
-
-    border-bottom: 1px solid #103D4A;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    border-bottom: .063rem solid #103D4A;
 
     position: absolute;
 }
 
 .head__logo {
-    margin-bottom: 1rem;
+    margin-bottom: 1.6rem;
 }
 
 .head__navegacion {
@@ -26,11 +24,10 @@
 }
 
 .head__enlace {
-    font-size: 1.1rem;
+    font-size: 1.7rem;
 
     display: inline-block;
-
-    margin-right: .7rem;
-    margin-bottom: 1.25rem;
-    margin-left: .7rem;
+    margin-right: 1.1rem;
+    margin-bottom: 2rem;
+    margin-left: 1.1rem;
 }
