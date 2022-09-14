@@ -28,6 +28,14 @@
 
     display: inline-block;
     margin-right: 1.1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.1rem;
     margin-left: 1.1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .head {
+        flex-direction: row;
+        justify-content: space-between;
+        border: none;
+    }
 }

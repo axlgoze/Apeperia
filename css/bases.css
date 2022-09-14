@@ -54,5 +54,12 @@ body{
     box-sizing: border-box;
     padding: 1.6rem 3.2rem;
     border: 1px solid var(--boton-rojo);
-    border-radius: 6px;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        padding-left: calc((100% - 940px)/2);
+        padding-right: calc((100% - 940px)/2);
+    }
 }

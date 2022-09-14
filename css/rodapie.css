@@ -5,8 +5,8 @@
 
     background-color: var(--background-footer);
 
-    padding-top: 2.5rem;
-    padding-bottom: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 3.2rem;
 }
 
 .footer__social {
@@ -19,7 +19,7 @@
     width: 42px;
     height: 42px;
 
-    margin: 2rem 1rem;
+    margin: 3.2rem 1.6rem;
 }
 
 .footer__navegacion {
@@ -33,5 +33,17 @@
 .footer__enlace {
     display: inline-block;
 
-    margin: 0 .5rem .7rem;
+    margin: 0 .5rem 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .footer__navegacion {
+        text-align: left;
+        min-width: 600px;
+    }
 }
