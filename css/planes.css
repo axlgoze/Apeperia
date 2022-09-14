@@ -41,7 +41,7 @@
 
     padding: 1.2rem 0;
 
-    margin-bottom: 8rem;
+    /* margin-bottom: 8rem; */
 
     border-bottom: 1px solid var(--background-azul-claro);
 }
@@ -62,6 +62,7 @@
 .tarjetas__texto {
     color: var(--fuente-ceniza-claro);
     line-height: 28px;
+    font-size: 1.5rem;
 }
 
 .tarjetas__boton {
@@ -94,14 +95,25 @@
     border-color: var(--planes-card-start);
 }
 
+.tarjetas__boton--start:hover{
+    box-shadow: 0px 2px 8px var(--planes-card-start);
+}
+
 .tarjetas__boton--ultra {
     border-color: var(--planes-card-ultra);
+}
+
+.tarjetas__boton--ultra:hover{
+    box-shadow: 0px 2px 8px var(--planes-card-ultra);
 }
 
 .tarjetas__boton--mega {
     border-color: var(--planes-card-mega);
 }
 
+.tarjetas__boton--mega:hover{
+    box-shadow: 0px 2px 8px var(--planes-card-mega);
+}
 
 @media screen and (min-width:768px){
     .tarjetas{

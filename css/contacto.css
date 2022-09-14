@@ -24,5 +24,14 @@
     color: var(--boton-rojo);
     border-color: var(--boton-rojo);
     margin-top: 2rem;
+    font-size: 1.8rem;
+}
 
+.contacto__boton:hover{
+    box-shadow: 0px 2px 8px var(--boton-rojo);
+}
+
+.contacto__texto{
+    font-size: 1.6rem;
+    margin-bottom: 2.4rem;
 }
