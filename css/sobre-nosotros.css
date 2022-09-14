@@ -1,4 +1,4 @@
-.sobre-nosotros {
+.sobre_nosotros {
     padding-top: 4.8rem;
     padding-bottom: 4.8rem;
     color: var(--fuente-ceniza-oscuro);
@@ -38,7 +38,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .sobre-nosotros {
+    .sobre_nosotros {
         display: flex;
     }
     .sobre-nosotros__contenido {
