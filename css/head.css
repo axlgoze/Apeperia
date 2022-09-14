@@ -10,7 +10,7 @@
     align-items: center;
     padding-top: 1.2rem;
     padding-bottom: 1.2rem;
-    border-bottom: .063rem solid #103D4A;
+    border-bottom: 1px solid #103D4A;
 
     position: absolute;
 }

@@ -14,8 +14,8 @@
     box-sizing: border-box;
     padding: 3.2rem 0 3.2rem 8rem;  
     background-repeat: no-repeat;
-    background-position: top 2rem left 2rem;
-    background-size: cover;
+    background-position: top 2rem left 4rem;
+    background-size: auto;
 }
 
 .item__titulo {
